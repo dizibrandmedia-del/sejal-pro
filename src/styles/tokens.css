@@ -1,0 +1,179 @@
+:root {
+  /* ==========================================================================
+     SEJAL.PRO LUXURY COLOR SYSTEM (Harmonized to Crowned Logo Palette)
+     Exact Palette:
+     - Molten Rose Gold & Crown Gold
+     - Faceted Rubellite Gem Pink
+     - Silk Satin Blush
+     - Porcelain Pearl White
+     - Imperial Noir Espresso
+     ========================================================================== */
+  
+  /* Molten Rose Gold Spectrum */
+  --sejal-rose-gold: #B76E79;
+  --sejal-rose-gold-light: #D8959F;
+  --sejal-rose-gold-highlight: #F7D0D8;
+  --sejal-rose-gold-dark: #8B4B5B;
+  --sejal-rose-gold-deep: #5E2633;
+  --sejal-rose-gold-subtle: rgba(183, 110, 121, 0.08);
+  --sejal-rose-gold-glow: rgba(183, 110, 121, 0.28);
+
+  /* Faceted Rubellite Gem Pink (Earring & Crown Gem) */
+  --sejal-rubellite: #D44265;
+  --sejal-rubellite-light: #F06A8C;
+  --sejal-rubellite-dark: #9E2442;
+  --sejal-rubellite-subtle: rgba(212, 66, 101, 0.1);
+  --sejal-rubellite-glow: rgba(212, 66, 101, 0.35);
+
+  /* Imperial Crown Gold */
+  --sejal-crown-gold: #D4AF37;
+  --sejal-crown-gold-light: #F5D77F;
+  --sejal-crown-gold-dark: #9E7D1A;
+  --sejal-gold: #D4AF37;
+  --sejal-gold-muted: #C5A880;
+
+  /* Silk Satin Blush */
+  --sejal-blush: #FCE8EC;
+  --sejal-blush-light: #FDF4F6;
+  --sejal-blush-subtle: #FFF9FA;
+  --sejal-blush-medium: #F7CAD2;
+  --sejal-soft-mauve: #D8A7B1;
+  --sejal-deep-mauve: #63333E;
+
+  /* Champagne & Pearl */
+  --sejal-champagne: #F5E6D3;
+  --sejal-champagne-light: #FAF3EA;
+  --sejal-champagne-dark: #DEC2A1;
+  --sejal-cream: #FFF9FA;
+  --sejal-pearl: #FAF4F5;
+  --sejal-ivory: #FDFCFA;
+  --sejal-white: #FFFFFF;
+
+  /* Imperial Noir & Espresso */
+  --sejal-espresso: #1A1014;
+  --sejal-espresso-card: #24161C;
+  --sejal-espresso-light: #38202B;
+  --sejal-charcoal: #2D1A23;
+  
+  /* Text Tokens */
+  --sejal-text-primary: #1A1014;
+  --sejal-text-secondary: #6B4E57;
+  --sejal-text-muted: #9E7D87;
+  --sejal-text-light: #FAF4F5;
+  --sejal-text-gold: #D4AF37;
+  --sejal-text-rose: #B76E79;
+
+  /* Luxury Borders */
+  --sejal-border: rgba(183, 110, 121, 0.22);
+  --sejal-border-light: rgba(183, 110, 121, 0.12);
+  --sejal-border-dark: rgba(26, 16, 20, 0.16);
+  --sejal-border-focus: #B76E79;
+  --sejal-border-rubellite: rgba(212, 66, 101, 0.35);
+
+  /* Status Colors */
+  --sejal-success: #3E7B5C;
+  --sejal-success-bg: #EFF8F3;
+  --sejal-error: #D44265;
+  --sejal-error-bg: #FDF2F4;
+  --sejal-warning: #C9822B;
+  --sejal-warning-bg: #FDF7ED;
+  --sejal-info: #5B728D;
+  --sejal-info-bg: #F2F6FA;
+
+  /* ==========================================================================
+     TYPOGRAPHY TOKENS
+     ========================================================================== */
+  --font-display: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-heading: 'Cinzel', 'Cormorant Garamond', serif;
+  --font-body: 'Plus Jakarta Sans', 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+
+  /* Type Scale */
+  --font-size-2xs: 0.6875rem; /* 11px */
+  --font-size-xs: 0.75rem;    /* 12px */
+  --font-size-sm: 0.875rem;   /* 14px */
+  --font-size-base: 1rem;     /* 16px */
+  --font-size-lg: 1.125rem;   /* 18px */
+  --font-size-xl: 1.25rem;    /* 20px */
+  --font-size-2xl: 1.5rem;    /* 24px */
+  --font-size-3xl: 1.875rem;  /* 30px */
+  --font-size-4xl: 2.25rem;   /* 36px */
+  --font-size-5xl: 3rem;      /* 48px */
+  --font-size-6xl: 3.75rem;   /* 60px */
+  --font-size-7xl: 4.5rem;    /* 72px */
+
+  /* Letter Spacing */
+  --tracking-tighter: -0.05em;
+  --tracking-tight: -0.025em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.05em;
+  --tracking-wider: 0.1em;
+  --tracking-widest: 0.18em;
+  --tracking-luxury: 0.25em;
+
+  /* ==========================================================================
+     SPACING & LAYOUT TOKENS
+     ========================================================================== */
+  --space-1: 0.25rem;  /* 4px */
+  --space-2: 0.5rem;   /* 8px */
+  --space-3: 0.75rem;  /* 12px */
+  --space-4: 1rem;     /* 16px */
+  --space-5: 1.25rem;  /* 20px */
+  --space-6: 1.5rem;   /* 24px */
+  --space-8: 2rem;     /* 32px */
+  --space-10: 2.5rem;  /* 40px */
+  --space-12: 3rem;    /* 48px */
+  --space-16: 4rem;    /* 64px */
+  --space-20: 5rem;    /* 80px */
+  --space-24: 6rem;    /* 96px */
+  --space-32: 8rem;    /* 128px */
+
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+  --container-2xl: 1440px;
+  --container-max: 1600px;
+
+  /* Header & Navigation Heights */
+  --announcement-height: 38px;
+  --header-height: 84px;
+  --header-total-height: 122px;
+  --mobile-nav-height: 64px;
+
+  /* ==========================================================================
+     ELEVATION & LUXURY SHADOWS (Rose Gold & Rubellite Glow)
+     ========================================================================== */
+  --shadow-sm: 0 2px 8px rgba(183, 110, 121, 0.08);
+  --shadow-md: 0 8px 24px rgba(183, 110, 121, 0.12);
+  --shadow-lg: 0 16px 40px rgba(183, 110, 121, 0.16);
+  --shadow-xl: 0 24px 60px rgba(26, 16, 20, 0.18);
+  --shadow-glow: 0 0 35px rgba(183, 110, 121, 0.32);
+  --shadow-rubellite: 0 4px 25px rgba(212, 66, 101, 0.3);
+  --shadow-gold: 0 0 30px rgba(212, 175, 55, 0.25);
+
+  /* Borders & Radii */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-arch: 40px 40px 0 0;
+  --radius-full: 9999px;
+
+  /* Transitions & Motion */
+  --transition-fast: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 300ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 600ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-editorial: 800ms cubic-bezier(0.25, 1, 0.5, 1);
+
+  /* Z-Index Hierarchy */
+  --z-back: -1;
+  --z-base: 1;
+  --z-sticky: 100;
+  --z-header: 500;
+  --z-drawer: 800;
+  --z-modal: 900;
+  --z-toast: 1000;
+}

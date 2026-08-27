@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="roseGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8B4B8" />
+      <stop offset="35%" stop-color="#B76E79" />
+      <stop offset="70%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#9E5460" />
+    </linearGradient>
+    <linearGradient id="blushFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDF2F4" />
+      <stop offset="100%" stop-color="#F7DDE0" />
+    </linearGradient>
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#B76E79" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Crown on Top -->
+  <path d="M42 22 L46 29 L50 20 L54 29 L58 22 L57 32 L43 32 Z" fill="url(#roseGoldGrad)" stroke="#B76E79" stroke-width="0.8" />
+  <circle cx="50" cy="19" r="1.5" fill="#D4AF37" />
+  <circle cx="42" cy="21" r="1.2" fill="#B76E79" />
+  <circle cx="58" cy="21" r="1.2" fill="#B76E79" />
+
+  <!-- Monogram 'S' & Silhouette Path -->
+  <path d="M57 33 C67 36 70 45 64 53 C59 59 48 57 44 63 C40 69 45 76 53 77 C60 78 66 74 68 70 C68 70 65 72 61 72 C55 72 50 67 52 61 C54 54 65 53 69 46 C74 38 69 31 57 33 Z" fill="url(#roseGoldGrad)" filter="url(#goldGlow)" />
+  
+  <!-- Inner Silhouette Face Flow -->
+  <path d="M45 42 C45 40 43 39 41 40 C38 41 36 45 37 49 C38 52 40 54 40 56 C39 58 37 59 38 61 C39 63 42 63 44 62 C43 59 42 56 42 53 C42 49 44 45 45 42 Z" fill="url(#blushFill)" stroke="#B76E79" stroke-width="0.5" />
+  
+  <!-- Earring Drop Gem -->
+  <path d="M47 57 L49 61 L47 65 L45 61 Z" fill="#B76E79" />
+  
+  <!-- Sparkle Stars -->
+  <path d="M72 32 L73.5 35 L76.5 36.5 L73.5 38 L72 41 L70.5 38 L67.5 36.5 L70.5 35 Z" fill="#D4AF37" opacity="0.85" />
+</svg>
